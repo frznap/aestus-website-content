@@ -49,6 +49,56 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* Web fonts */
+
+@font-face {
+	font-family: 'Recharge';
+	src: url('../fonts/recharge_bd.ttf');
+	url('../fonts/recharge_bd.ttf') format('truetype')
+}
+
+.recharge {
+	font-family: 'Recharge'
+}
+
+/** Custom Divs **/
+@media screen and (min-width: 401px) {
+	.aestus-logo {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		height: 451px;
+		width: 495px;
+		background: url('../../images/aestus_triangle_logo_transparent2.png');
+		z-index: 99;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.aestus-logo {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		height: 251px;
+		width: 495px;
+		background: url('../../images/Aestus_Triangle_Logo_transparent2_mobile.png');
+		z-index: 99;
+		background-repeat: no-repeat;
+	}
+}
+
+
+.custom-paragraph {
+		font-family: FontAwesome;
+		font-size: 45px;
+		color: black;
+}
+
+.custom-underline {
+		font-style: italic;
+		text-decoration: underline;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1657,6 +1707,7 @@
 	}
 
 	p {
+		font-size: 1.2rem;
 		margin: 0 0 2rem 0;
 	}
 
@@ -3077,7 +3128,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/gears_background.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -3712,7 +3763,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/sheet_background.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3737,6 +3788,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 2;
+			/*margin-bottom: 160px;*/
 		}
 
 		#banner h1 {
