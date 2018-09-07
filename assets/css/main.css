@@ -67,6 +67,7 @@
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: -30px;
 		height: 451px;
 		width: 495px;
 		background: url('../../images/aestus_triangle_logo_transparent2.png');
@@ -3763,7 +3764,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/sheet_background.jpg");
+		background-image: url("../../images/sheet_background3.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
